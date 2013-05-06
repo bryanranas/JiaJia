@@ -8,7 +8,6 @@ namespace ChineseRestaurant
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            //pnlRatings.Visible = false;
             ParseClient.Initialize("GFtzj3jqhkcjqOEwGQwQGhwy1JxP0F2oJ7FB0Klt", "P1Uu5I4eYaSnEpKAHzd09RCZsksbHeoKsLFmRXgP");
         }
 
