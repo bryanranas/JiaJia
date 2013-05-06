@@ -12,12 +12,6 @@ namespace ChineseRestaurant
             ParseClient.Initialize("GFtzj3jqhkcjqOEwGQwQGhwy1JxP0F2oJ7FB0Klt", "P1Uu5I4eYaSnEpKAHzd09RCZsksbHeoKsLFmRXgP");
         }
 
-        //protected void radDined_SelectedIndexChanged(object sender, EventArgs e)
-        //{
-        //    if (radDined.SelectedValue == "Yes")
-        //        pnlRatings.Visible = true;
-        //}
-
         protected async void btnSend_Click(object sender, EventArgs e)
         {
             Contact newContact = new Contact();
